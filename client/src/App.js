@@ -17,7 +17,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Hola, esta app calcula los indices de fibonacci
+            Fib Calculator
           </a>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
