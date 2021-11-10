@@ -1,0 +1,14 @@
+apiVersion: cert-manager.io/v1
+ 
+kind: Certificate
+metadata:
+  name: omarkubernetes-com-tls
+spec:
+  secretName: omarkubernetes-com
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  commonName: omarkubernetes.com
+  dnsNames:
+    - omarkubernetes.com
+    - www.omarkubernetes.com
