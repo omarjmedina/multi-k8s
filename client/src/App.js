@@ -17,7 +17,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Fib Calculator version KUBERNETES!
+            Fib Calculator using KUBERNETES! by Omar Medina
           </a>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
